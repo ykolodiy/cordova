@@ -5,3 +5,7 @@ create progect: cordova create CordovaProject io.cordova.hellocordova CordovaApp
 add android: cordova platform add android
 build: cordova build android
 run: cordova emulate android   or cordova run android   or install phonegap and run: phonegap serve
+
+
+Key generation syntax
+keytool -genkey -v -keystore app-key.keystore -alias app-key -keyalg RSA -keysize 2048 -validity 10000
